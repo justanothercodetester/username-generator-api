@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+	const prefixes = ["Alpha", "Zen", "Ruby", "Pixel", "Captain","Luna", "Quantum", "Emerald", "Serenity", "Sushi","Mountain", "Phoenix", "Electric", "Songbird", "Tech","Silver", "Midnight", "Tango", "Cosmic", "Jazz","Velvet", "Neon", "Ghostly", "Ballet", "Delta","Echo", "Solar", "Whispering", "Pirate", "Harmony","Cyber", "Melody", "Quasar", "Crimson", "Enigma","Stardust", "Techno", "Lunar", "Rogue", "Dream"];
+	const suffixes = ["Wolf", "Master", "Red", "Pirate", "Adventure","Lovegood", "Coder", "Enigma", "Seeker", "Samurai","Mover", "Fire", "Echo", "Soul", "Titan","Shadow", "Mystic", "Tornado", "Crafter", "Journey","Vortex", "Nebula", "Gazer", "Blossom", "Dynamo","Eagle", "Symphony", "Willow", "Pioneer", "Hawk","Scribe", "Mistress", "Quest", "Comet", "Explorer","Strider", "Trance", "Lullaby", "Rider", "Dancer"];
+	const number = Math.floor(Math.random() * 999 + 1);
+	
+	const username =
+		prefixes[Math.floor(Math.random() * prefixes.length)] +
+		suffixes[Math.floor(Math.random() * suffixes.length)] +
+		number;
+
+	// Output plain text directly
+	document.body.innerText = username;
+</script>
+</body>
+</html>
